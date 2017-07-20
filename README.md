@@ -1,5 +1,5 @@
-##OpenGL Showcase 0.0.1.1 
+## OpenGL Showcase 0.0.1.1 
 
 nothing to see here 
 
-![demo][data/images/prev1.png]
+![demo](data/img/prev1.png)
