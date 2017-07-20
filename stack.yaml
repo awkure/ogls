@@ -1,0 +1,21 @@
+resolver: lts-8.17
+
+packages:
+- '.'
+
+extra-deps: [ FTGL-2.1
+            , GLUtil-0.9.1.1
+            , fail-4.9.0.0
+            , nats-1.1.1
+            , bitmap-0.0.2
+            , algebra-4.3
+            , stb-image-0.2.1 ]
+
+flags: {}
+
+extra-package-dbs: []
+
+require-stack-version: ">=1.4"
+
+extra-include-dirs: [/usr/lib64]
+extra-lib-dirs: [/usr/lib64]

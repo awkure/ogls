@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><link rel="stylesheet" type="text/css" href="style.css" /><script type="text/javascript" src="highlight.js"></script></head><body><pre><span class="hs-comment">-------------------------------------------------------------------------------</span><span>
+</span><a name="line-2"></a><span class="hs-comment">-- |</span><span>
+</span><a name="line-3"></a><span class="hs-comment">-- Module      : OGLS.Engine.Sound</span><span>
+</span><a name="line-4"></a><span class="hs-comment">-- Description : Provides sound </span><span>
+</span><a name="line-5"></a><span class="hs-comment">-- Copyright   : (c) Adam, 2017</span><span>
+</span><a name="line-6"></a><span class="hs-comment">-- License     : MIT</span><span>
+</span><a name="line-7"></a><span class="hs-comment">-- Maintainer  : awkure@protonmail.ch </span><span>
+</span><a name="line-8"></a><span class="hs-comment">-- Stability   : unstable </span><span>
+</span><a name="line-9"></a><span class="hs-comment">-- Portability : POSIX</span><span>
+</span><a name="line-10"></a><span class="hs-comment">-------------------------------------------------------------------------------</span><span>
+</span><a name="line-11"></a><span class="hs-keyword">module</span><span> </span><span class="hs-identifier">OGLS</span><span class="hs-operator">.</span><span class="hs-identifier">Engine</span><span class="hs-operator">.</span><span class="hs-identifier">Sound</span><span> </span><span>
+</span><a name="line-12"></a><span class="hs-comment">--{-# WARNING &quot;Unimplemented&quot; #-}</span><span>
+</span><a name="line-13"></a><span>   </span><span class="hs-special">(</span><span> </span><a href="OGLS.Engine.Sound.html#SoundFlag"><span class="hs-identifier hs-type">SoundFlag</span></a><span> </span><span class="hs-special">(</span><span class="hs-glyph">..</span><span class="hs-special">)</span><span> </span><span class="hs-special">)</span><span> </span><span class="hs-keyword">where</span><span> </span><span>
+</span><a name="line-14"></a><span>
+</span><a name="line-15"></a><span class="hs-keyword">import</span><span> </span><span class="hs-identifier">Foreign</span><span>
+</span><a name="line-16"></a><span class="hs-keyword">import</span><span> </span><span class="hs-identifier">Data</span><span class="hs-operator">.</span><span class="hs-identifier">Bits</span><span>
+</span><a name="line-17"></a><span>
+</span><a name="line-18"></a><span class="hs-keyword">data</span><span> </span><a name="SoundFlag"><a href="OGLS.Engine.Sound.html#SoundFlag"><span class="hs-identifier">SoundFlag</span></a></a><span> </span><span class="hs-glyph">=</span><span> </span><a name="Application"><a href="OGLS.Engine.Sound.html#Application"><span class="hs-identifier">Application</span></a></a><span>
+</span><a name="line-19"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="Alias"><a href="OGLS.Engine.Sound.html#Alias"><span class="hs-identifier">Alias</span></a></a><span>
+</span><a name="line-20"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="AliasId"><a href="OGLS.Engine.Sound.html#AliasId"><span class="hs-identifier">AliasId</span></a></a><span>
+</span><a name="line-21"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="Async"><a href="OGLS.Engine.Sound.html#Async"><span class="hs-identifier">Async</span></a></a><span>
+</span><a name="line-22"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="Filename"><a href="OGLS.Engine.Sound.html#Filename"><span class="hs-identifier">Filename</span></a></a><span>
+</span><a name="line-23"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="Loop"><a href="OGLS.Engine.Sound.html#Loop"><span class="hs-identifier">Loop</span></a></a><span>
+</span><a name="line-24"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="Memory"><a href="OGLS.Engine.Sound.html#Memory"><span class="hs-identifier">Memory</span></a></a><span>
+</span><a name="line-25"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="NoDefault"><a href="OGLS.Engine.Sound.html#NoDefault"><span class="hs-identifier">NoDefault</span></a></a><span>
+</span><a name="line-26"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="NoStop"><a href="OGLS.Engine.Sound.html#NoStop"><span class="hs-identifier">NoStop</span></a></a><span>
+</span><a name="line-27"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="NoWait"><a href="OGLS.Engine.Sound.html#NoWait"><span class="hs-identifier">NoWait</span></a></a><span>
+</span><a name="line-28"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="Purge"><a href="OGLS.Engine.Sound.html#Purge"><span class="hs-identifier">Purge</span></a></a><span>
+</span><a name="line-29"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="Resource"><a href="OGLS.Engine.Sound.html#Resource"><span class="hs-identifier">Resource</span></a></a><span>
+</span><a name="line-30"></a><span>               </span><span class="hs-glyph">|</span><span> </span><a name="Sync"><a href="OGLS.Engine.Sound.html#Sync"><span class="hs-identifier">Sync</span></a></a><span>
+</span><a name="line-31"></a></pre></body></html>

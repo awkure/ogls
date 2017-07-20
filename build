@@ -1,0 +1,2 @@
+#!/usr/bin/env sh 
+stack --install-ghc --copy-bins build --exec ogls-exe
